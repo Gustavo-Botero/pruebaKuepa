@@ -3,17 +3,16 @@
       <!-- Add icons to the links using the .nav-icon class
            with font-awesome or any other icon font library -->
       <li class="nav-item">
-        <a href="#" class="nav-link">
-          <i class="nav-icon fas fa-tachometer-alt"></i>
+        <a href="{{route('usuarios.index')}}" class="nav-link @yield('usuario')">
+          <i class="nav-icon fas fa-user"></i>
           <p>
             Registro
-            <i class="right fas fa-angle-left"></i>
           </p>
         </a>
       </li>
       <li class="nav-item">
-        <a href="../widgets.html" class="nav-link">
-          <i class="nav-icon fas fa-th"></i>
+        <a href="" class="nav-link @yield('listar')">
+          <i class="nav-icon fas fa-list"></i>
           <p>
             Estudiantes
           </p>
